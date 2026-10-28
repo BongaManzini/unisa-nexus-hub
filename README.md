@@ -41,35 +41,35 @@ A role-based student resource management portal built for UNISA (University of S
 
 ```
 unisa-nexus-hub-main/
-├── public/                  # Static assets
+├── public/         # Static assets
 ├── src/
-│   ├── components/
-│   │   ├── common/          # Shared components (Header, NavLink, etc.)
-│   │   └── ui/              # Shadcn UI component library
-│   ├── contexts/
-│   │   └── AppContext.jsx   # Global state: auth, vault, meetings, ads, teams, sync
-│   ├── data/                # Initial seed data
-│   ├── hooks/               # Custom React hooks (use-mobile, use-toast)
-│   ├── lib/                 # Utility helpers
-│   ├── pages/
-│   │   ├── Index.tsx        # Entry page
-│   │   └── NotFound.tsx     # 404 fallback
-│   ├── styles/              # Global styles
-│   ├── views/
-│   │   ├── Dashboard.jsx    # Main tabbed dashboard
-│   │   ├── features/
-│   │   │   ├── Vault.jsx    # Secure file vault
-│   │   │   └── Meetings.jsx # Meeting scheduler
-│   │   └── admin/
-│   │       ├── AdManager.jsx   # Advertisement management
-│   │       ├── AuditLog.jsx    # Activity audit trail
-│   │       └── TeamSharing.jsx # Team & role management
-│   ├── App.tsx              # Root component & router
-│   └── main.tsx             # Application entry point
-├── components.json          # Shadcn UI configuration
-├── tailwind.config.ts       # Tailwind configuration
-├── vite.config.ts           # Vite configuration
-└── tsconfig.json            # TypeScript configuration
+│  ├── components/
+│  │  ├── common/     # Shared components (Header, NavLink, etc.)
+│  │  └── ui/       # Shadcn UI component library
+│  ├── contexts/
+│  │  └── AppContext.jsx  # Global state: auth, vault, meetings, ads, teams, sync
+│  ├── data/        # Initial seed data
+│  ├── hooks/        # Custom React hooks (use-mobile, use-toast)
+│  ├── lib/         # Utility helpers
+│  ├── pages/
+│  │  ├── Index.tsx    # Entry page
+│  │  └── NotFound.tsx   # 404 fallback
+│  ├── styles/       # Global styles
+│  ├── views/
+│  │  ├── Dashboard.jsx  # Main tabbed dashboard
+│  │  ├── features/
+│  │  │  ├── Vault.jsx  # Secure file vault
+│  │  │  └── Meetings.jsx # Meeting scheduler
+│  │  └── admin/
+│  │    ├── AdManager.jsx  # Advertisement management
+│  │    ├── AuditLog.jsx  # Activity audit trail
+│  │    └── TeamSharing.jsx # Team & role management
+│  ├── App.tsx       # Root component & router
+│  └── main.tsx       # Application entry point
+├── components.json     # Shadcn UI configuration
+├── tailwind.config.ts    # Tailwind configuration
+├── vite.config.ts      # Vite configuration
+└── tsconfig.json      # TypeScript configuration
 ```
 
 ---
@@ -124,10 +124,10 @@ These are separate applications that complement the Nexus Hub.
 
 | Role | Vault | Meetings | Team Sharing | Audit Log | Ad Manager |
 |---|:---:|:---:|:---:|:---:|:---:|
-| Owner/Admin | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Sync Manager | ✅ | ✅ | ❌ | ❌ | ❌ |
-| Marketing Manager | ✅ | ✅ | ❌ | ❌ | ✅ |
-| Student (default) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Owner/Admin | | | | | |
+| Sync Manager | | | | | |
+| Marketing Manager | | | | | |
+| Student (default) | | | | | |
 
 ---
 
